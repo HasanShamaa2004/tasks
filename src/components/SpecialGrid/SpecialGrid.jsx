@@ -28,7 +28,7 @@ const SpecialGrid = ({rows}) => {
                       <td key={index} className="w-[7%] flex justify-start border-b-[1px] border-[#F0F4F8] pb-2">
                         <ImageButton img={value} ></ImageButton>
                       </td>
-                    ) : index == colomns.length-1 ? (
+                    ) : index == colomns.length-1 || index==1 ? (
                       <td key={index} className="w-[13%] flex justify-start border-b-[1px]
                        border-[#F0F4F8] pb-2 text-[10px] font-[400">{value}</td>
                     ) : <td key={index} className="w-[13%] flex justify-start  border-b-[1px]
