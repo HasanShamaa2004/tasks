@@ -1,6 +1,7 @@
 import { Sidebar } from "./Components/SeconSidebar/SeconSidebar";
 import SpecialGrid from "./components/SpecialGrid/SpecialGrid";
 import img from "./components/SpecialGrid/question.svg";
+import {SignIn} from "./Pages/SignIn/SignIn";
 
 function App() {
   const rows = [
@@ -9,8 +10,9 @@ function App() {
   ];
   return (
     <div className="">
-      <Sidebar />
+      {/* <Sidebar /> */}
       {/* <SpecialGrid rows={rows} /> */}
+      {/* <SignIn/> */}
     </div>
   );
 }
